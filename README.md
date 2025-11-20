@@ -50,3 +50,7 @@ A smart AI assistant that provides winning strategies for ANY video game! Built 
 
 git clone https://github.com/yourusername/game-strategy-ai.git
 
+ 
+"## New Updates" 
+"- Enhanced AI logic" 
+"- Improved strategy algorithms" 
