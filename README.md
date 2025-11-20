@@ -54,3 +54,7 @@ git clone https://github.com/yourusername/game-strategy-ai.git
 "## New Updates" 
 "- Enhanced AI logic" 
 "- Improved strategy algorithms" 
+ 
+"## Latest Updates" 
+"- Documentation improvements" 
+"- Added project structure details" 
