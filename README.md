@@ -21,6 +21,45 @@ A smart AI assistant that provides winning strategies for ANY video game! Built 
 \- \*\*100% Python\*\* - Easy to modify and extend
 
 
+## 🧠 AI Agent Concepts Implemented
+
+Our Game Strategy AI implements sophisticated multi-agent architecture demonstrating four key AI concepts:
+
+### 📋 Planning
+**Our Strategy Agent decomposes winning into hierarchical steps:**
+- **State Assessment**: Analyzes current game conditions and resources
+- **Option Generation**: Identifies all possible moves and actions
+- **Outcome Prediction**: Forecasts results for each move sequence using probability models
+- **Optimal Path Selection**: Chooses the sequence with highest win probability using decision trees
+
+### 🛠️ Tool Use
+**Our agents leverage specialized tools for enhanced capabilities:**
+- **OpenCV**: For real-time game state analysis and visual pattern recognition
+- **Pygame**: As a simulation environment to test and validate strategies
+- **Pandas/NumPy**: For statistical analysis, data processing, and pattern recognition
+- **Scikit-learn**: For machine learning model training and prediction
+
+### 💾 Memory
+**Our Memory Agent maintains persistent knowledge across sessions:**
+- **Game History Database**: Stores historical game states and outcomes
+- **Player Behavior Profiles**: Tracks individual player patterns and preferences
+- **Strategy Effectiveness Records**: Learns which strategies work best in different scenarios
+- **Adaptive Learning Models**: Improves recommendations over time based on accumulated data
+
+### 👥 Multi-Agent Collaboration
+**Three specialized agents work together in real-time:**
+- **Analysis Agent** ("The Observer"): Processes current game state using computer vision tools (OpenCV)
+- **Memory Agent** ("The Historian"): Recalls historical data and maintains player pattern databases
+- **Strategy Agent** ("The Tactician"): Generates optimal plans using inputs from both other agents
+
+### 🔄 Workflow Example
+1. **Analysis Agent** uses OpenCV to process current game screen
+2. **Memory Agent** recalls similar historical game situations
+3. **Strategy Agent** creates multiple potential winning plans
+4. **System** tests plans using Pygame simulation tool
+5. **Optimal strategy** is delivered to the user via web interface
+
+
 
 \## 🎯 Supported Games
 
