@@ -1,27 +1,19 @@
-\# 🎮 Game Strategy AI Agent
-
+# 🎮 Game Strategy AI Agent
 
 
 A smart AI assistant that provides winning strategies for ANY video game! Built with Python and Streamlit.
 
 
-
-\## 🚀 Features
-
-
+## Features
 
 \- \*\*Free to use\*\* - No API costs required
-
 \- \*\*Expert strategies\*\* for popular games
-
 \- \*\*Smart generic advice\*\* for any game
-
 \- \*\*Beautiful web interface\*\*
-
 \- \*\*100% Python\*\* - Easy to modify and extend
 
 
-## 🧠 AI Agent Concepts Implemented
+###  AI Agent Concepts Implemented
 
 Our Game Strategy AI implements sophisticated multi-agent architecture demonstrating four key AI concepts:
 
@@ -59,6 +51,42 @@ Our Game Strategy AI implements sophisticated multi-agent architecture demonstra
 4. **System** tests plans using Pygame simulation tool
 5. **Optimal strategy** is delivered to the user via web interface
 
+   ## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A[🎮 User Input<br/>Game Data] --> B[🌐 Web Interface<br/>Dashboard]
+    B --> C[🤖 Multi-Agent Orchestration]
+    
+    subgraph C [AI Agent System]
+        D[Analysis Agent<br/>Uses OpenCV/Pygame]
+        E[Memory Agent<br/>Stores Game History]
+        F[Strategy Agent<br/>Planning & Decision Making]
+    end
+    
+    D --> G[🔄 Tool Use]
+    E --> H[💾 Memory]
+    F --> I[📋 Planning]
+    
+    G & H & I --> J[🧠 AI Decision Engine<br/>Machine Learning Core]
+    J --> K[🎯 Strategy Recommendation]
+    K --> L[📊 User Output<br/>Winning Strategy]
+
+    style D fill:#e1f5fe
+    style E fill:#f3e5f5
+    style F fill:#e8f5e8
+    style G fill:#fff3e0
+    style H fill:#e8f5e8
+    style I fill:#fce4ec
+```
+
+**Key Components:**
+- **🤖 Multi-Agent System**: Three specialized AI agents working together
+- **🔄 Tool Use**: Analysis Agent leverages OpenCV/Pygame for game processing
+- **💾 Memory**: Memory Agent maintains historical game data and patterns  
+- **📋 Planning**: Strategy Agent breaks down winning into actionable steps
+- **🧠 AI Decision Engine**: Core machine learning models for pattern recognition
+
 
 
 \## 🎯 Supported Games
@@ -66,21 +94,14 @@ Our Game Strategy AI implements sophisticated multi-agent architecture demonstra
 
 
 \- \*\*Action/RPG\*\*: Dark Souls, Elden Ring, Sekiro
-
 \- \*\*Strategy\*\*: Chess, StarCraft, Civilization  
-
 \- \*\*Shooters\*\*: Fortnite, Valorant, Call of Duty
-
 \- \*\*Survival\*\*: Minecraft, Terraria
-
 \- \*\*MOBA\*\*: League of Legends, DOTA 2
-
 \- \*\*And many more!\*\*
 
 
-
 \## 🛠️ Installation
-
 
 
 1\. Clone this repository:
