@@ -75,3 +75,11 @@ flowchart TD
     style G fill:#fff3e0
     style H fill:#e8f5e8
     style I fill:#fce4ec
+```
+
+**Key Components:**
+- **🤖 Multi-Agent System**: Three specialized AI agents working together
+- **🔄 Tool Use**: Analysis Agent leverages OpenCV/Pygame for game processing
+- **💾 Memory**: Memory Agent maintains historical game data and patterns  
+- **📋 Planning**: Strategy Agent breaks down winning into actionable steps
+- **🧠 AI Decision Engine**: Core machine learning models for pattern recognition
