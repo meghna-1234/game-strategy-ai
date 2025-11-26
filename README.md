@@ -33,3 +33,19 @@ A smart AI assistant that provides winning strategies for ANY video game! Built 
 ```bash
 git clone https://github.com/meghna-1234/game-strategy-ai.git
 cd game-strategy-ai
+
+## 🎯 Session Management Feature
+
+The system now includes robust session management:
+
+- **User Session Tracking**: Each user gets a unique session ID
+- **Conversation History**: All strategy conversations are stored per session
+- **Session Timeouts**: Automatic cleanup of expired sessions (2-hour timeout)
+- **Session Metrics**: Real-time monitoring of active sessions and usage patterns
+- **Game State Persistence**: Maintains game context across interactions
+
+**Technical Implementation**:
+- `InMemorySessionService` class for session management
+- `GameSession` class for individual session data
+- Integrated with Streamlit state management
+- Demonstrates course concept: **Sessions & Memory**
