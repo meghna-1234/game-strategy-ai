@@ -1,0 +1,18 @@
+﻿# 1. Commit the removal
+git commit -m "Remove nested git repository"
+
+# 2. Add a .gitignore file to prevent future issues
+@'
+# Ignore nested git repos
+game-strategy-ai/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Environment
+.env
+!.env.example
